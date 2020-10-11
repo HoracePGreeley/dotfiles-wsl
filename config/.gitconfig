@@ -1,5 +1,12 @@
+[core]
+    autocrlf = true
+    safecrlf = false
+
 [push]
     default = simple
+
+[credential]
+    helper = /mnt/c/Program\\ Files/Git/mingw64/libexec/git-core/git-credential-wincred.exe
 
 [alias]
     # inspired by https://laravel-news.com/bash-aliases
